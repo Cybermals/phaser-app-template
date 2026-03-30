@@ -16,15 +16,15 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "@babel/core": "^7.29.0",
-    "@babel/preset-env": "^7.29.2",
-    "babelify": "^10.0.0",
-    "browserify": "^17.0.1",
-    "budo": "^11.8.4",
-    "copyfiles": "^2.4.1",
-    "phaser": "^4.0.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babelify": "^8.0.0",
+    "browserify": "^4.2.3",
+    "budo": "^2.1.5",
+    "copyfiles": "^1.2.0",
+    "phaser": "^3.90.0",
     "uglify-js": "^3.19.3",
-    "watchify": "^4.0.0"
+    "watchify": "^0.10.2"
   },
   "browserify": {
     "transform": [
@@ -32,7 +32,7 @@
         "babelify",
         {
           "presets": [
-            "@babel/preset-env"
+            "babel-preset-env"
           ]
         }
       ]
