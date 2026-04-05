@@ -13,11 +13,13 @@ Note: If you want to create a `README.md` file for your project, rename this one
 
 ## Deployment Instructions
 ### GitHub Pages
-01. open `src/ghp-index.html` and change the base URL to `https://<your_github_username>.github.io/<repository_name>/`
-02. create a `gh-pages` branch
-03. goto the Settings page for your project
-04. click the Actions > General tab
-05. check the Read and write permissions option under Workflow permissions
+01. create a `gh-pages` branch
+02. goto the Settings page for your project
+03. click the Actions > General tab
+04. check the Read and write permissions option under Workflow permissions
+05. open `src/ghp-index.html` and change the base URL to `https://<your_github_username>.github.io/<repository_name>/`
+06. your project will be automatically built and deployed to GitHub Pages whenever you push to the `main` branch
+07. visit `https://<your_github_username>.github.io/<repository_name>/` to view your live project
 
 ### Other
 01. execute `npm run build`
