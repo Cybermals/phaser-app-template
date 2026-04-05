@@ -21,6 +21,8 @@ Note: If you want to create a `README.md` file for your project, rename this one
 06. your project will be automatically built and deployed to GitHub Pages whenever you push to the `main` branch
 07. visit `https://<your_github_username>.github.io/<repository_name>/` to view your live project
 
+Note: The `dist` folder must remain excluded from `.gitignore` in order for the deployment workflow to succeed.
+
 ### Other
 01. execute `npm run build`
 02. copy the contents of `dist/` to a web server
