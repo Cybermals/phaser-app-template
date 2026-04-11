@@ -22,7 +22,7 @@
     "browserify": "^4.2.3",
     "budo": "^2.1.5",
     "copyfiles": "^1.2.0",
-    "phaser": "^3.90.0",
+    "phaser": "^4.0.0",
     "uglify-js": "^3.19.3",
     "watchify": "^0.10.2"
   },
